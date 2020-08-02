@@ -1,14 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM, { render } from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
+
+
+function MyApp() {
+  render(
     <ul>
       <li>1</li>
       <li>2</li>
       <li>3</li>
     </ul>
+  )
+
+}
+
+ReactDOM.render(
+  <React.StrictMode>
+    <MyApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
