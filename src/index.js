@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import MyInfo from "./Components/MyInfo";
+import App from './App';
+//import MyInfo from "./Components/MyInfo";
+
 
 
 
@@ -11,7 +13,7 @@ import MyInfo from "./Components/MyInfo";
 
 ReactDOM.render(
   <React.StrictMode>
-  <MyInfo />
+  <App />
   </React.StrictMode>, document.getElementById('root')
 );
 
