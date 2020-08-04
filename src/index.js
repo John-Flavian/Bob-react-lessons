@@ -16,6 +16,10 @@ ReactDOM.render(
   <App />, document.getElementById('root')
 );
 
+/*
+removed ReactStrictMode tag, i don't know it's function.
+Removed serviceworker too, i don't know it's function.
+*/
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

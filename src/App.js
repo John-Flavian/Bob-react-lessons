@@ -1,16 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
-import MainContent from './Components/MainContent';
-import Footer from './Components/Footer';
+
 
 function App() {
+const date = new Date();
+
   return (
     <div>
-     <Navbar />
-     <MainContent />
-     <Footer />
-
+     <h1>It is currently {date.getHours() % 12} 'o Clock Today. </h1>
     </div>
   )
 }
