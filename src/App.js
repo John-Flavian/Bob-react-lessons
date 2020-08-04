@@ -1,12 +1,12 @@
 import React from 'react'
-import Jokes from './Components/Jokes'
+import Joke from './Components/Joke'
 
 function App() {
   return (
     <div>
-      <Jokes question="What is your name"
+      <Joke question="What is your name"
        punchLine="John" />
-       
+
     </div>
   )
 }

@@ -60,6 +60,22 @@ input[type=checkbox]:focus {
 }
 
 
+/*jokesApp*/
+.joke-items {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  justify-content: center;
+  
+}
+
+.joke {
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: 3px 5px 2px 1px;
+  margin: 50px;
+  width: 500px;
+}
 
 
 
