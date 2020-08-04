@@ -18,9 +18,16 @@ else {
   timeOfDay = "Night";
 }
 
+const myStyles = {
+    color: "yellow", 
+    backgroundColor: "#334546",
+    fontSize: 40,
+    width: "200px"
+}
+
   return (
     <div>
-     <h1 style={{color: "yellow", backgroundColor: "#334546" }}>Good {timeOfDay}!</h1>
+     <h1 style={myStyles}>Good {timeOfDay}!</h1>
     </div>
   )
 }
