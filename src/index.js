@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import JokesApp from './App'
 //import TodoApp from './TodoApp'
 //import * as serviceWorker from './serviceWorker';
-import Contacts from './Components/Contacts'
+//import Contacts from './Components/Contacts'
 //import MyInfo from "./Components/MyInfo";
 
 
@@ -14,7 +15,7 @@ import Contacts from './Components/Contacts'
 
 ReactDOM.render(
   
-  <Contacts />, document.getElementById('root')
+  <JokesApp />, document.getElementById('root')
 );
 
 /*

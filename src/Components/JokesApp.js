@@ -1,5 +1,5 @@
 import React from 'react'
-import Jokes from './Components/Jokes'
+import Jokes from './Jokes'
 
 function App() {
   return (
