@@ -5,25 +5,27 @@ import './App.css';
 function App() {
 const date = new Date();
 const hours = date.getHours();
+const myStyles = {
+  fontSize: 40,
+  backgroundColor: "whitesmoke"
+}
 
 let timeOfDay;
 
 if (hours < 12) {
   timeOfDay = "Morning";
+  myStyles.color = "red";
 }
 else if (hours >= 12 && hours < 17) {
   timeOfDay = "Afternoon";
+  myStyles.color = "green";
 }
 else {
   timeOfDay = "Night";
+  myStyles.color = "blue";
 }
 
-const myStyles = {
-    color: "yellow", 
-    backgroundColor: "#334546",
-    fontSize: 40,
-    width: "200px"
-}
+
 
   return (
     <div>
