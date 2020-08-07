@@ -1,15 +1,26 @@
 import React from 'react'
 import Joke from './Components/Joke'
+import JokesData from './Components/JokesData'
 import './App.css'
 
 function JokesApp() {
+
+  //Test function
+  const nums = [1,2,3,4,5,6,7,8];
+  const doubled = nums.map(function(num) {
+      return num * 2
+  });
+console.log(doubled)
+
+  const JokesComponents = JokesData.map((joke) => {
+return (
+  <Joke question={joke.question} punchLine={joke.punchLine} key={joke.id} />
+)
+  })
+
     return (
         <div className="joke-items">
-      <Joke question= "what just happened" punchLine= "I just fell off the roof" />
-      <Joke question= "what's your name" punchLine= "Mr. Jokes a lot" />
-      <Joke question= "where are you" punchLine= "Somewhere on earth" />
-      <Joke punchLine= "Give me some punches" />
-      <Joke question= "Should we laugh or what" punchLine= "Just try to stop me from talking" />
+      {JokesComponents}
       </div>
     )
 }
