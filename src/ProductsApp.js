@@ -7,11 +7,12 @@ function ProductsApp() {
 
 const ProductsComponents = ProductsData.map((item) => {
     return (
-<Product name={item.name} description={item.description} price={item.price} key={item.id} />
+<Product product={item} key={item.id} />
 
             )})
 
 console.log(ProductsComponents)
+
     return ( <div className="products-container">        
         {ProductsComponents}
             </div>
