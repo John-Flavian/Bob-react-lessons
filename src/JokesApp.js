@@ -12,12 +12,20 @@ function JokesApp() {
   });
 console.log(doubled)
 
+//Jokes function
   const JokesComponents = JokesData.map((joke) => {
 return (
   <Joke question={joke.question} punchLine={joke.punchLine} key={joke.id} />
 )
   })
 
+  //shorthand
+  /*
+
+const JokesComponents = JokesData.map(joke =>
+  <Joke question={joke.question} punchLine={joke.punchLine} key={joke.id} />)
+
+  */
     return (
         <div className="joke-items">
       {JokesComponents}

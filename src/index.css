@@ -77,6 +77,17 @@ input[type=checkbox]:focus {
   width: 500px;
 }
 
+.product {
+  border: 2px solid black;
+  background-color: #87ceeb;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+}
 
+.products-container {
+  display: flex;
+  align-items: center;
+}
 
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import JokesApp from './JokesApp'
+import ProductsApp from './ProductsApp'
+
+//import JokesApp from './JokesApp'
 //import TodoApp from './TodoApp'
 //import * as serviceWorker from './serviceWorker';
 //import Contacts from './Components/Contacts'
@@ -15,7 +17,7 @@ import JokesApp from './JokesApp'
 
 ReactDOM.render(
   
-  <JokesApp />, document.getElementById('root')
+  <ProductsApp />, document.getElementById('root')
 );
 
 /*
